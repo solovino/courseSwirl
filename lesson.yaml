@@ -1,0 +1,23 @@
+- Class: meta
+  Course: 415 course
+  Lesson: FirstLesson
+  Author: your name goes here
+  Type: Standard
+  Organization: your organization's name goes here
+  Version: 2.2.21
+
+- Class: text
+  Output: This is an interactive introduction R.  As you work through this lesson you will see ... , and this means you should hit enter.
+
+- Class: text
+  Output: This lesson will is meant to get you familiar with R.  Lets begin!
+  
+- Class: text
+  Output: R is free!  You should install R on your computer sometime after class.  Where do you get R?  One would visit the site http://cran.cnr.berkeley.edu/.  Visit the site now.  Take a minute to look at the site.
+  
+- Class: text_question
+  Output: Note that on this site you can download R for windows, linux, or Mac. Let's pretend we have a windows computer.  Click on the "Download R for Windows".  On which link should you click if one is installing R for the first time?
+  CorrectAnswer: base
+  AnswerTests: val_matches('base')
+  Hint: "Hint: It is either base, contrib, or the Rtools link.  It is case sensitive. For example, if any letters are upper case, then the answer should have the same upper case letters."  
+  
