@@ -18,6 +18,6 @@
 - Class: text_question
   Output: Note that on this site you can download R for windows, linux, or Mac. Let's pretend we have a windows computer.  Click on the "Download R for Windows".  On which link should you click if one is installing R for the first time?
   CorrectAnswer: base
-  AnswerTests: val_matches('base')
+  AnswerTests: val_matches('[\"]*[Bb]ase[\"]*')
   Hint: "Hint: It is either base, contrib, or the Rtools link.  It is case sensitive. For example, if any letters are upper case, then the answer should have the same upper case letters."  
   
