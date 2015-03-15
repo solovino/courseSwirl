@@ -7,7 +7,7 @@
   Version: 2.2.21
 
 - Class: text
-  Output: This is an interactive introduction R.  As you work through this lesson you will see ... , and this means you should hit enter.
+  Output: This is an interactive introduction R.  As you work through this lesson you will see '...' , and this means you should hit enter.
 
 - Class: text
   Output: This lesson will is meant to get you familiar with R.  Lets begin!
@@ -18,6 +18,6 @@
 - Class: text_question
   Output: Note that on this site you can download R for windows, linux, or Mac. Let's pretend we have a windows computer.  Click on the "Download R for Windows".  On which link should you click if one is installing R for the first time?
   CorrectAnswer: base
-  AnswerTests: val_matches('[\"]*[Bb]ase[\"]*')
+  AnswerTests: val_matches('[\"][Bb]ase[\"]')
   Hint: "Hint: It is either base, contrib, or the Rtools link.  It is case sensitive. For example, if any letters are upper case, then the answer should have the same upper case letters."  
   
